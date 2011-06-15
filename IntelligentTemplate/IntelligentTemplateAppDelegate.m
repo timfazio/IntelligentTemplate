@@ -124,7 +124,7 @@
     UITabBarItem *tempTab4 = [[UITabBarItem alloc] initWithTitle:@"Fourth View" 
                                                            image:nil 
                                                              tag:3];
-    vc1.tabBarItem = tempTab4;
+    vc4.tabBarItem = tempTab4;
     [tempTab4 release];
     
     [tabViewControllers addObject:vc4];
@@ -190,6 +190,14 @@
      Save data if appropriate.
      See also applicationDidEnterBackground:.
      */
+}
+
+- init {
+	if ((self = [super init])) {
+		// initialize  to nil
+		//mainWindow = nil;
+	}
+	return self;
 }
 
 - (void)dealloc
