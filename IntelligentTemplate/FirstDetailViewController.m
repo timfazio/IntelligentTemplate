@@ -27,22 +27,22 @@
 #pragma mark SplitViewDelegate
 
 - (void)splitViewController: (UISplitViewController*)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem*)barButtonItem forPopoverController: (UIPopoverController*)pc {
-	/*
+	
 	 //debug_NSLog(@"Entering portrait, showing the button: %@", [aViewController class]);
 	 barButtonItem.title = @"Things";
-	 [self.navigationItem setRightBarButtonItem:barButtonItem animated:YES];
-	 self.masterPopover = pc;
-	 */
+	 [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
+	 //self.masterPopover = pc;
+	 
 }
 
 
 // Called when the view is shown again in the split view, invalidating the button and popover controller.
 - (void)splitViewController: (UISplitViewController*)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {
-	/*
+	
 	 //debug_NSLog(@"Entering landscape, hiding the button: %@", [aViewController class]);
-	 [self.navigationItem setRightBarButtonItem:nil animated:YES];
-	 self.masterPopover = nil;
-	 */
+	 [self.navigationItem setLeftBarButtonItem:nil animated:YES];
+	 //self.masterPopover = nil;
+	 
 }
 
 - (void) splitViewController:(UISplitViewController *)svc popoverController: (UIPopoverController *)pc
