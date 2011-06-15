@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E42F6213A8E9EF0053E0D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E42F6113A8E9EF0053E0D2 /* UIKit.framework */; };
+		22E42F6413A8E9EF0053E0D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E42F6313A8E9EF0053E0D2 /* Foundation.framework */; };
+		22E42F6613A8E9F00053E0D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E42F6513A8E9EF0053E0D2 /* CoreGraphics.framework */; };
+		22E42F6C13A8E9F00053E0D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E42F6A13A8E9F00053E0D2 /* InfoPlist.strings */; };
+		22E42F6F13A8E9F00053E0D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42F6E13A8E9F00053E0D2 /* main.m */; };
+		22E42F7213A8E9F00053E0D2 /* IntelligentTemplateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42F7113A8E9F00053E0D2 /* IntelligentTemplateAppDelegate.m */; };
+		22E42F7513A8E9F00053E0D2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E42F7313A8E9F00053E0D2 /* MainWindow.xib */; };
+		22E42F7813A8E9F00053E0D2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42F7713A8E9F00053E0D2 /* FirstViewController.m */; };
+		22E42F7B13A8E9F00053E0D2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42F7A13A8E9F00053E0D2 /* SecondViewController.m */; };
+		22E42F7E13A8E9F00053E0D2 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E42F7C13A8E9F00053E0D2 /* FirstView.xib */; };
+		22E42F8113A8E9F00053E0D2 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E42F7F13A8E9F00053E0D2 /* SecondView.xib */; };
+		22E42F8913A8EAE10053E0D2 /* IntelligentSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42F8813A8EAE10053E0D2 /* IntelligentSplitViewController.m */; };
+		22E42F9C13A8ED4D0053E0D2 /* FirstMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42F9A13A8ED4D0053E0D2 /* FirstMasterViewController.m */; };
+		22E42F9D13A8ED4D0053E0D2 /* FirstMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E42F9B13A8ED4D0053E0D2 /* FirstMasterViewController.xib */; };
+		22E42FA113A8ED5E0053E0D2 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42F9F13A8ED5D0053E0D2 /* FirstDetailViewController.m */; };
+		22E42FA213A8ED5E0053E0D2 /* FirstDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E42FA013A8ED5D0053E0D2 /* FirstDetailViewController.xib */; };
+		22E42FA613A8EDA50053E0D2 /* SecondDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42FA413A8EDA50053E0D2 /* SecondDetailViewController.m */; };
+		22E42FA713A8EDA50053E0D2 /* SecondDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E42FA513A8EDA50053E0D2 /* SecondDetailViewController.xib */; };
+		22E42FB013A8EE280053E0D2 /* SecondMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E42FAE13A8EE280053E0D2 /* SecondMasterViewController.m */; };
+		22E42FB113A8EE280053E0D2 /* SecondMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E42FAF13A8EE280053E0D2 /* SecondMasterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22E42F5D13A8E9EF0053E0D2 /* IntelligentTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligentTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E42F6113A8E9EF0053E0D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22E42F6313A8E9EF0053E0D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22E42F6513A8E9EF0053E0D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22E42F6913A8E9F00053E0D2 /* IntelligentTemplate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IntelligentTemplate-Info.plist"; sourceTree = "<group>"; };
+		22E42F6B13A8E9F00053E0D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22E42F6D13A8E9F00053E0D2 /* IntelligentTemplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntelligentTemplate-Prefix.pch"; sourceTree = "<group>"; };
+		22E42F6E13A8E9F00053E0D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22E42F7013A8E9F00053E0D2 /* IntelligentTemplateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntelligentTemplateAppDelegate.h; sourceTree = "<group>"; };
+		22E42F7113A8E9F00053E0D2 /* IntelligentTemplateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntelligentTemplateAppDelegate.m; sourceTree = "<group>"; };
+		22E42F7413A8E9F00053E0D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		22E42F7613A8E9F00053E0D2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		22E42F7713A8E9F00053E0D2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		22E42F7913A8E9F00053E0D2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		22E42F7A13A8E9F00053E0D2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		22E42F7D13A8E9F00053E0D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		22E42F8013A8E9F00053E0D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		22E42F8713A8EAE10053E0D2 /* IntelligentSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelligentSplitViewController.h; sourceTree = "<group>"; };
+		22E42F8813A8EAE10053E0D2 /* IntelligentSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelligentSplitViewController.m; sourceTree = "<group>"; };
+		22E42F9913A8ED4D0053E0D2 /* FirstMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstMasterViewController.h; sourceTree = "<group>"; };
+		22E42F9A13A8ED4D0053E0D2 /* FirstMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstMasterViewController.m; sourceTree = "<group>"; };
+		22E42F9B13A8ED4D0053E0D2 /* FirstMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstMasterViewController.xib; sourceTree = "<group>"; };
+		22E42F9E13A8ED5D0053E0D2 /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
+		22E42F9F13A8ED5D0053E0D2 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		22E42FA013A8ED5D0053E0D2 /* FirstDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstDetailViewController.xib; sourceTree = "<group>"; };
+		22E42FA313A8EDA50053E0D2 /* SecondDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
+		22E42FA413A8EDA50053E0D2 /* SecondDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetailViewController.m; sourceTree = "<group>"; };
+		22E42FA513A8EDA50053E0D2 /* SecondDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondDetailViewController.xib; sourceTree = "<group>"; };
+		22E42FAD13A8EE280053E0D2 /* SecondMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondMasterViewController.h; sourceTree = "<group>"; };
+		22E42FAE13A8EE280053E0D2 /* SecondMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondMasterViewController.m; sourceTree = "<group>"; };
+		22E42FAF13A8EE280053E0D2 /* SecondMasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondMasterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E42F5A13A8E9EF0053E0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E42F6213A8E9EF0053E0D2 /* UIKit.framework in Frameworks */,
+				22E42F6413A8E9EF0053E0D2 /* Foundation.framework in Frameworks */,
+				22E42F6613A8E9F00053E0D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E42F5213A8E9EF0053E0D2 = {
+			isa = PBXGroup;
+			children = (
+				22E42F6713A8E9F00053E0D2 /* IntelligentTemplate */,
+				22E42F6013A8E9EF0053E0D2 /* Frameworks */,
+				22E42F5E13A8E9EF0053E0D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E42F5E13A8E9EF0053E0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E42F5D13A8E9EF0053E0D2 /* IntelligentTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E42F6013A8E9EF0053E0D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22E42F6113A8E9EF0053E0D2 /* UIKit.framework */,
+				22E42F6313A8E9EF0053E0D2 /* Foundation.framework */,
+				22E42F6513A8E9EF0053E0D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22E42F6713A8E9F00053E0D2 /* IntelligentTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				22E42F7013A8E9F00053E0D2 /* IntelligentTemplateAppDelegate.h */,
+				22E42F7113A8E9F00053E0D2 /* IntelligentTemplateAppDelegate.m */,
+				22E42F7313A8E9F00053E0D2 /* MainWindow.xib */,
+				22E42F8A13A8EAEA0053E0D2 /* IntelligentSplitViewController */,
+				22E42F8B13A8EB360053E0D2 /* First Tab */,
+				22E42F9213A8EB8B0053E0D2 /* Second Tab */,
+				22E42F9813A8EBCE0053E0D2 /* Third Tab */,
+				22E42F8C13A8EB480053E0D2 /* Fourth Tab */,
+				22E42F6813A8E9F00053E0D2 /* Supporting Files */,
+			);
+			path = IntelligentTemplate;
+			sourceTree = "<group>";
+		};
+		22E42F6813A8E9F00053E0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E42F6913A8E9F00053E0D2 /* IntelligentTemplate-Info.plist */,
+				22E42F6A13A8E9F00053E0D2 /* InfoPlist.strings */,
+				22E42F6D13A8E9F00053E0D2 /* IntelligentTemplate-Prefix.pch */,
+				22E42F6E13A8E9F00053E0D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22E42F8A13A8EAEA0053E0D2 /* IntelligentSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				22E42F8713A8EAE10053E0D2 /* IntelligentSplitViewController.h */,
+				22E42F8813A8EAE10053E0D2 /* IntelligentSplitViewController.m */,
+			);
+			name = IntelligentSplitViewController;
+			sourceTree = "<group>";
+		};
+		22E42F8B13A8EB360053E0D2 /* First Tab */ = {
+			isa = PBXGroup;
+			children = (
+				22E42F7613A8E9F00053E0D2 /* FirstViewController.h */,
+				22E42F7713A8E9F00053E0D2 /* FirstViewController.m */,
+				22E42F7C13A8E9F00053E0D2 /* FirstView.xib */,
+			);
+			name = "First Tab";
+			sourceTree = "<group>";
+		};
+		22E42F8C13A8EB480053E0D2 /* Fourth Tab */ = {
+			isa = PBXGroup;
+			children = (
+				22E42F7913A8E9F00053E0D2 /* SecondViewController.h */,
+				22E42F7A13A8E9F00053E0D2 /* SecondViewController.m */,
+				22E42F7F13A8E9F00053E0D2 /* SecondView.xib */,
+			);
+			name = "Fourth Tab";
+			sourceTree = "<group>";
+		};
+		22E42F9213A8EB8B0053E0D2 /* Second Tab */ = {
+			isa = PBXGroup;
+			children = (
+				22E42F9913A8ED4D0053E0D2 /* FirstMasterViewController.h */,
+				22E42F9A13A8ED4D0053E0D2 /* FirstMasterViewController.m */,
+				22E42F9B13A8ED4D0053E0D2 /* FirstMasterViewController.xib */,
+				22E42F9E13A8ED5D0053E0D2 /* FirstDetailViewController.h */,
+				22E42F9F13A8ED5D0053E0D2 /* FirstDetailViewController.m */,
+				22E42FA013A8ED5D0053E0D2 /* FirstDetailViewController.xib */,
+			);
+			name = "Second Tab";
+			sourceTree = "<group>";
+		};
+		22E42F9813A8EBCE0053E0D2 /* Third Tab */ = {
+			isa = PBXGroup;
+			children = (
+				22E42FAD13A8EE280053E0D2 /* SecondMasterViewController.h */,
+				22E42FAE13A8EE280053E0D2 /* SecondMasterViewController.m */,
+				22E42FAF13A8EE280053E0D2 /* SecondMasterViewController.xib */,
+				22E42FA313A8EDA50053E0D2 /* SecondDetailViewController.h */,
+				22E42FA413A8EDA50053E0D2 /* SecondDetailViewController.m */,
+				22E42FA513A8EDA50053E0D2 /* SecondDetailViewController.xib */,
+			);
+			name = "Third Tab";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E42F5C13A8E9EF0053E0D2 /* IntelligentTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E42F8413A8E9F00053E0D2 /* Build configuration list for PBXNativeTarget "IntelligentTemplate" */;
+			buildPhases = (
+				22E42F5913A8E9EF0053E0D2 /* Sources */,
+				22E42F5A13A8E9EF0053E0D2 /* Frameworks */,
+				22E42F5B13A8E9EF0053E0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelligentTemplate;
+			productName = IntelligentTemplate;
+			productReference = 22E42F5D13A8E9EF0053E0D2 /* IntelligentTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E42F5413A8E9EF0053E0D2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 22E42F5713A8E9EF0053E0D2 /* Build configuration list for PBXProject "IntelligentTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22E42F5213A8E9EF0053E0D2;
+			productRefGroup = 22E42F5E13A8E9EF0053E0D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E42F5C13A8E9EF0053E0D2 /* IntelligentTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E42F5B13A8E9EF0053E0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E42F6C13A8E9F00053E0D2 /* InfoPlist.strings in Resources */,
+				22E42F7513A8E9F00053E0D2 /* MainWindow.xib in Resources */,
+				22E42F7E13A8E9F00053E0D2 /* FirstView.xib in Resources */,
+				22E42F8113A8E9F00053E0D2 /* SecondView.xib in Resources */,
+				22E42F9D13A8ED4D0053E0D2 /* FirstMasterViewController.xib in Resources */,
+				22E42FA213A8ED5E0053E0D2 /* FirstDetailViewController.xib in Resources */,
+				22E42FA713A8EDA50053E0D2 /* SecondDetailViewController.xib in Resources */,
+				22E42FB113A8EE280053E0D2 /* SecondMasterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E42F5913A8E9EF0053E0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E42F6F13A8E9F00053E0D2 /* main.m in Sources */,
+				22E42F7213A8E9F00053E0D2 /* IntelligentTemplateAppDelegate.m in Sources */,
+				22E42F7813A8E9F00053E0D2 /* FirstViewController.m in Sources */,
+				22E42F7B13A8E9F00053E0D2 /* SecondViewController.m in Sources */,
+				22E42F8913A8EAE10053E0D2 /* IntelligentSplitViewController.m in Sources */,
+				22E42F9C13A8ED4D0053E0D2 /* FirstMasterViewController.m in Sources */,
+				22E42FA113A8ED5E0053E0D2 /* FirstDetailViewController.m in Sources */,
+				22E42FA613A8EDA50053E0D2 /* SecondDetailViewController.m in Sources */,
+				22E42FB013A8EE280053E0D2 /* SecondMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22E42F6A13A8E9F00053E0D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E42F6B13A8E9F00053E0D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22E42F7313A8E9F00053E0D2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E42F7413A8E9F00053E0D2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		22E42F7C13A8E9F00053E0D2 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E42F7D13A8E9F00053E0D2 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		22E42F7F13A8E9F00053E0D2 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E42F8013A8E9F00053E0D2 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E42F8213A8E9F00053E0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22E42F8313A8E9F00053E0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		22E42F8513A8E9F00053E0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntelligentTemplate/IntelligentTemplate-Prefix.pch";
+				INFOPLIST_FILE = "IntelligentTemplate/IntelligentTemplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22E42F8613A8E9F00053E0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntelligentTemplate/IntelligentTemplate-Prefix.pch";
+				INFOPLIST_FILE = "IntelligentTemplate/IntelligentTemplate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E42F5713A8E9EF0053E0D2 /* Build configuration list for PBXProject "IntelligentTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E42F8213A8E9F00053E0D2 /* Debug */,
+				22E42F8313A8E9F00053E0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E42F8413A8E9F00053E0D2 /* Build configuration list for PBXNativeTarget "IntelligentTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E42F8513A8E9F00053E0D2 /* Debug */,
+				22E42F8613A8E9F00053E0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22E42F5413A8E9EF0053E0D2 /* Project object */;
+}
