@@ -108,7 +108,7 @@
 					<bool key="IBUIMultipleTouchEnabled">YES</bool>
 					<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 				</object>
-				<object class="NSArray" key="IBUIViewControllers">
+				<object class="NSMutableArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBUIViewController" id="240426214">
 						<object class="IBUINavigationItem" key="IBUINavigationItem" id="257118960">
@@ -162,7 +162,7 @@
 						<object class="IBUIViewController" id="267015171">
 							<object class="IBUINavigationItem" key="IBUINavigationItem" id="488655758">
 								<reference key="IBUINavigationBar"/>
-								<string key="IBUITitle">(A) MasterVC</string>
+								<string key="IBUITitle">First Master View</string>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
 							<reference key="IBUIParentViewController" ref="408378544"/>
@@ -200,7 +200,7 @@
 						<object class="IBUIViewController" id="284599274">
 							<object class="IBUINavigationItem" key="IBUINavigationItem" id="1027913196">
 								<reference key="IBUINavigationBar"/>
-								<string key="IBUITitle">(A) DetailVC</string>
+								<string key="IBUITitle">First Detail View</string>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
 							<reference key="IBUIParentViewController" ref="1036758324"/>
@@ -249,7 +249,8 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="IBUIViewController" id="398188745">
 							<object class="IBUINavigationItem" key="IBUINavigationItem" id="1058011008">
-								<string key="IBUITitle"/>
+								<reference key="IBUINavigationBar"/>
+								<string key="IBUITitle">Second Master View</string>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
 							<reference key="IBUIParentViewController" ref="516576151"/>
@@ -286,7 +287,8 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="IBUIViewController" id="770098826">
 							<object class="IBUINavigationItem" key="IBUINavigationItem" id="511025110">
-								<string key="IBUITitle"/>
+								<reference key="IBUINavigationBar"/>
+								<string key="IBUITitle">Second Detail View</string>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							</object>
 							<reference key="IBUIParentViewController" ref="84118418"/>
@@ -319,7 +321,7 @@
 					<bool key="IBUIMultipleTouchEnabled">YES</bool>
 					<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 				</object>
-				<object class="NSArray" key="IBUIViewControllers">
+				<object class="NSMutableArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBUIViewController" id="295385551">
 						<object class="IBUINavigationItem" key="IBUINavigationItem" id="817528457">
@@ -786,6 +788,17 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">FirstDetailViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">detailItem</string>
+						<string key="NS.object.0">UILabel</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">detailItem</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">detailItem</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/FirstDetailViewController.h</string>
