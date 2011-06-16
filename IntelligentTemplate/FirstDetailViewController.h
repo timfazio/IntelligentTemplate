@@ -10,7 +10,11 @@
 
 
 @interface FirstDetailViewController : UIViewController <UISplitViewControllerDelegate> {
-    
+    UILabel *detailItem;
+    UIPopoverController *masterPopover;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *detailItem;
+@property (nonatomic, retain) UIPopoverController *masterPopover;
 
 @end

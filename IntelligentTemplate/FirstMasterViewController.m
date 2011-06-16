@@ -7,9 +7,10 @@
 //
 
 #import "FirstMasterViewController.h"
-
+#import "FirstDetailViewController.h"
 
 @implementation FirstMasterViewController
+
 @synthesize detailViewController;
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -153,6 +154,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    ((FirstDetailViewController *)detailViewController).detailItem.text = [tableView cellForRowAtIndexPath:indexPath].textLabel.text;
+    
+    [((FirstDetailViewController *)detailViewController).masterPopover dismissPopoverAnimated:YES];
+    
     // Navigation logic may go here. Create and push another view controller.
     /*
      <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];

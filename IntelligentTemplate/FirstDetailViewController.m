@@ -11,6 +11,9 @@
 
 @implementation FirstDetailViewController
 
+@synthesize detailItem;
+@synthesize masterPopover;
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,7 +34,7 @@
 	 //debug_NSLog(@"Entering portrait, showing the button: %@", [aViewController class]);
 	 barButtonItem.title = @"Things";
 	 [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
-	 //self.masterPopover = pc;
+	 self.masterPopover = pc;
 	 
 }
 
@@ -41,7 +44,7 @@
 	
 	 //debug_NSLog(@"Entering landscape, hiding the button: %@", [aViewController class]);
 	 [self.navigationItem setLeftBarButtonItem:nil animated:YES];
-	 //self.masterPopover = nil;
+	 self.masterPopover = nil;
 	 
 }
 
@@ -72,6 +75,8 @@
 
 - (void)dealloc {
 	[super dealloc];
+    [detailItem release];
+    [masterPopover release];
 }
 
 @end
